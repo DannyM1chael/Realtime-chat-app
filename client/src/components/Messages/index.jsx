@@ -5,18 +5,18 @@ import Message from './Message';
 import './messages.css';
 
 function Messages( { messages, name }) {
-    
+
     return(
-        <ScrollToBottom>
-            {messages.map((message, index) => {
-                return(
+        <ScrollToBottom className="messages">
+            { messages.map((message, index) => {
+                return (
                     <div key={ index }>
                         <Message message={ message } name={ name } />
                     </div>
                 )
-            })}
+            }) }
         </ScrollToBottom>
     )
-}
+};
 
 export default Messages;
