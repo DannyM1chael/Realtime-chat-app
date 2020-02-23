@@ -1,3 +1,2 @@
 # Realtime-chat-app
-ReactJS - front-end
-NodeJS, Socket.IO - back-end
+ReactJS for front-end and NodeJS, Socket.io for back-end
